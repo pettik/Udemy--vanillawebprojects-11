@@ -30,6 +30,7 @@ Display blog posts from [jsonplaceholder] (https://jsonplaceholder.typicode.com/
 
 ## My solution features
 
+- In my version, **user data** (name, nickname, email, address-city) is loaded **instead of blog posts**.
 - Custom **UI/UX design**
 - If the user **scrolls down**, a ‘loading’ animation appears, which disappears while a fetch request is sent to load the next group of users.
 - Unfortunately, **only 10 users are available in API**, so once they are all loaded, a **message for the user appears** at the bottom of the page. 
