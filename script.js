@@ -67,7 +67,7 @@ function showLoading() {
 
 // Filter users by input
 function filterUser(e) {
-   ;
+   
    const term = e.target.value.toUpperCase();
    const users = document.querySelectorAll('.user');
 
