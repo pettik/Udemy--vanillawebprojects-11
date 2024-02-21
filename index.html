@@ -19,28 +19,24 @@
    </head>
    <body>
       <div class="container">
-         <h1>Some posts</h1>
+         <h1>List of users <i class="fa-solid fa-user-group"></i>:</h1>
          <div class="filter-container">
-            <input type="text" class="filter" id="filter" placeholder="Filter posts...">
+            <input type="text" class="filter" id="filter" placeholder="Filter users...">
          </div>
 
-         <div id="posts-container">
-            <div class="post" style="display: flex;">
-               <div class="number">1</div>
-               <div class="post-info">
-                 <h2 class="post-title">sunt aut facere repellat provident occaecati excepturi optio reprehenderit</h2>
-                 <p class="post-body">quia et suscipit
-         suscipit recusandae consequuntur expedita et cum
-         reprehenderit molestiae ut ut quas totam
-         nostrum rerum est autem sunt rem eveniet architecto</p>
-               </div>
-             </div>
+         <div id="users-container" class="users-container">
+           
          </div>
 
          <div class="loader">
             <div class="circle"></div>
             <div class="circle"></div>
             <div class="circle"></div>
+         </div>
+
+         <div class="final-message">
+            All available users are already displayed here.
+            <i class="fa-regular fa-face-smile"></i>
          </div>
       </div>
       <script src="script.js"></script>
